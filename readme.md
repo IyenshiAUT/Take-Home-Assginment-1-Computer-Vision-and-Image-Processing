@@ -29,7 +29,7 @@ Reduces the number of distinct shades of gray.
 
 | Original Grayscale | 4 Levels | 4 Levels |
 | :---: | :---: | :---: |
-| ![Original Image](.image/Brave-cartoon-movie-Merida-archer.jpg) |![Reduced to 4](./1 Intensity Reduction/output/intensity_reduced_to_4_levels_color_image.png) | ![Reduced to 8](./1Intensity Reduction/output/intensity_reduced_to_8_levels_color_image.png) |
+| ![Original Image](https://github.com/IyenshiAUT/Take-Home-Assginment-1-Computer-Vision-and-Image-Processing/blob/main/image/Brave-cartoon-movie-Merida-archer.jpg) |![Reduced to 4](https://github.com/IyenshiAUT/Take-Home-Assginment-1-Computer-Vision-and-Image-Processing/blob/main/1%20Intensity%20Reduction/output/intensity_reduced_to_4_levels_color_image.png) | ![Reduced to 8](https://github.com/IyenshiAUT/Take-Home-Assginment-1-Computer-Vision-and-Image-Processing/blob/main/1%20Intensity%20Reduction/output/intensity_reduced_to_8_levels_color_image.png) |
 
 ### 2. Spatial Averaging (Color)
 Smooths the image, reducing noise and detail.
