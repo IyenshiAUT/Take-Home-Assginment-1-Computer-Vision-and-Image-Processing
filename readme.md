@@ -5,7 +5,7 @@ This code consists of the source codes and outputs of the Take Home Assignment 0
 
 ---
 
-## ✨ Directory Outline
+## Directory Outline
 
 Theres is a directory called "image" which contains the original image.
 
@@ -27,9 +27,9 @@ Here are some examples of the transformations applied to a sample image.
 ### 1. Intensity Level Reduction (Grayscale)
 Reduces the number of distinct shades of gray.
 
-| Original Grayscale | 16 Levels | 4 Levels |
+| Original Grayscale | 4 Levels | 4 Levels |
 | :---: | :---: | :---: |
-|  | |  |
+| ![Original Image](.image/Brave-cartoon-movie-Merida-archer.jpg) |![Reduced to 4](./1 Intensity Reduction/output/intensity_reduced_to_4_levels_color_image.png) | ![Reduced to 8](./1Intensity Reduction/output/intensity_reduced_to_8_levels_color_image.png) |
 
 ### 2. Spatial Averaging (Color)
 Smooths the image, reducing noise and detail.
@@ -78,7 +78,7 @@ To run this script, you need Python and the required libraries installed.
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 1.  Place an image file you want to process in the root directory of the project. By default, the script looks for `Brave-cartoon-movie-Merida-archer.jpg`. You can change this in the code.
 
@@ -90,7 +90,7 @@ To run this script, you need Python and the required libraries installed.
 
 ---
 
-## 📂 Code Overview
+## Code Overview
 
 The script is organized into clear, single-purpose functions:
 
@@ -103,7 +103,7 @@ Each script has the main execution block (`if __name__ == "__main__":`) calls th
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 * [Python](https://www.python.org/) (3.6+)
 * [OpenCV](https://pypi.org/project/opencv-python/)
@@ -111,7 +111,7 @@ Each script has the main execution block (`if __name__ == "__main__":`) calls th
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
 
