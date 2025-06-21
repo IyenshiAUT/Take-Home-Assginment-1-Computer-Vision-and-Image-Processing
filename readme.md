@@ -20,12 +20,9 @@ Each of the above directories contain output directory.
 
 ---
 
-## Output Examples
-
-Here are some examples of the transformations applied to a sample image.
+## Outputs
 
 ### 1. Intensity Level Reduction 
-Reduces the number of distinct shades of gray.
 
 | Original Color | 4 Levels | 8 Levels |
 | :---: | :---: | :---: |
@@ -36,7 +33,6 @@ Reduces the number of distinct shades of gray.
 | ![Original Image](https://github.com/IyenshiAUT/Take-Home-Assginment-1-Computer-Vision-and-Image-Processing/blob/main/image/Brave-cartoon-movie-Merida-archer.jpg) |![Reduced to 4](https://github.com/IyenshiAUT/Take-Home-Assginment-1-Computer-Vision-and-Image-Processing/blob/main/1%20Intensity%20Reduction/output/intensity_reduced_to_4_levels_grayscale_image.png) | ![Reduced to 8](https://github.com/IyenshiAUT/Take-Home-Assginment-1-Computer-Vision-and-Image-Processing/blob/main/1%20Intensity%20Reduction/output/intensity_reduced_to_8_levels_grayscale_image.png) |
 
 ### 2. Spatial Averaging (Color)
-Smooths the image, reducing noise and detail.
 
 | Original Color | 3x3 Blur | 10x10 Blur | 20x20 Blur |
 | :---: | :---: | :---: | :---: |
@@ -44,7 +40,6 @@ Smooths the image, reducing noise and detail.
 
 
 ### 3. Image Rotation (Color)
-Rotates the image with reflective padding to avoid black corners.
 
 | Original Color | 45-Degree Rotation | 90-Degree Rotation |
 | :---: | :---: | :---: |
@@ -52,7 +47,6 @@ Rotates the image with reflective padding to avoid black corners.
 
 
 ### 4. Spatial Resolution Reduction (Color)
-Creates a "pixelated" effect by averaging blocks of pixels.
 
 | Original Color | 3x3 Blocks | 5x5 Blocks | 7x7 Blocks |
 | :---: | :---: | :---: | :---: |
@@ -66,7 +60,7 @@ To run this script, you need Python and the required libraries installed.
 
 1.  **Clone the directory:**
     ```bash
-    git clone 
+    git clone https://github.com/IyenshiAUT/Take-Home-Assginment-1-Computer-Vision-and-Image-Processing.git
     ```
 
 2.  **Create a virtual environment (recommended):**
@@ -92,18 +86,6 @@ To run this script, you need Python and the required libraries installed.
 
 4.  All output images will be saved to a  directory named `output/` for in each directory.
 
----
-
-## Code Overview
-
-The script is organized into clear, single-purpose functions:
-
-* `reduce_intensity_levels()`: Performs quantization on an image.
-* `apply_spatial_averaging()`: Applies a box blur.
-* `rotate_image_properly()`: Handles all rotation logic.
-* `reduce_spatial_resolution()`: Creates a pixelation effect using block averaging.
-
-Each script has the main execution block (`if __name__ == "__main__":`) calls these functions in order and handles file I/O and image display.
 
 ---
 
