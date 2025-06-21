@@ -1,7 +1,7 @@
 # EC7212 – Computer Vision and Image Processing  
 # Take Home Assignment 1
 
-This code consists of the source codes and outputs of the Take Home Assignment 01 of EC7212 – Computer Vision and Image Processing.
+This repository consists of the source codes and outputs of the Take Home Assignment 01 of EC7212 – Computer Vision and Image Processing.
 
 ---
 
@@ -9,7 +9,7 @@ This code consists of the source codes and outputs of the Take Home Assignment 0
 
 Theres is a directory called "image" which contains the original image.
 
-There are 4 directories which provide the following image processing capabilities:
+There are 4 directories which provide the following image processing capabilities in their script files along with main() function:
 
 * **Intensity Level Reduction**: Quantize a image by reducing the number of intensity levels to any integer power of 2 (e.g., from 256 to 128, 64, 16, 2, etc.).
 * **Spatial Averaging (Blurring)**: Apply a box blur filter to an image using various kernel sizes (3x3, 10x10, and 20x20) to achieve different levels of smoothing.
@@ -99,5 +99,5 @@ To run this script, you need Python and the required libraries installed.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/IyenshiAUT/Take-Home-Assginment-1-Computer-Vision-and-Image-Processing/blob/main/LICENSE) file for details.
 
