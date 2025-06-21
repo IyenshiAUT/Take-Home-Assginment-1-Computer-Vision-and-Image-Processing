@@ -2,7 +2,7 @@
 # Take Home Assignment 1
 
 Reg. No: EG/2020/3975 <br/>
-Name   : Iyneshi A.U.T.
+Name   : Iyenshi A.U.T.
 
 This repository consists of the source codes and outputs of the Take Home Assignment 01 of EC7212 – Computer Vision and Image Processing.
 
