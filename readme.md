@@ -24,35 +24,39 @@ Each of the above directories contain output directory.
 
 Here are some examples of the transformations applied to a sample image.
 
-### 1. Intensity Level Reduction (Grayscale)
+### 1. Intensity Level Reduction 
 Reduces the number of distinct shades of gray.
 
-| Original Grayscale | 4 Levels | 4 Levels |
+| Original Color | 4 Levels | 8 Levels |
 | :---: | :---: | :---: |
 | ![Original Image](https://github.com/IyenshiAUT/Take-Home-Assginment-1-Computer-Vision-and-Image-Processing/blob/main/image/Brave-cartoon-movie-Merida-archer.jpg) |![Reduced to 4](https://github.com/IyenshiAUT/Take-Home-Assginment-1-Computer-Vision-and-Image-Processing/blob/main/1%20Intensity%20Reduction/output/intensity_reduced_to_4_levels_color_image.png) | ![Reduced to 8](https://github.com/IyenshiAUT/Take-Home-Assginment-1-Computer-Vision-and-Image-Processing/blob/main/1%20Intensity%20Reduction/output/intensity_reduced_to_8_levels_color_image.png) |
+
+| Original Gray Scale | 4 Levels | 8 Levels |
+| :---: | :---: | :---: |
+| ![Original Image](https://github.com/IyenshiAUT/Take-Home-Assginment-1-Computer-Vision-and-Image-Processing/blob/main/image/Brave-cartoon-movie-Merida-archer.jpg) |![Reduced to 4](https://github.com/IyenshiAUT/Take-Home-Assginment-1-Computer-Vision-and-Image-Processing/blob/main/1%20Intensity%20Reduction/output/intensity_reduced_to_4_levels_grayscale_image.png) | ![Reduced to 8](https://github.com/IyenshiAUT/Take-Home-Assginment-1-Computer-Vision-and-Image-Processing/blob/main/1%20Intensity%20Reduction/output/intensity_reduced_to_8_levels_grayscale_image.png) |
 
 ### 2. Spatial Averaging (Color)
 Smooths the image, reducing noise and detail.
 
-| Original Color | 10x10 Blur | 20x20 Blur |
-| :---: | :---: | :---: |
-| | |  |
+| Original Color | 3x3 Blur | 10x10 Blur | 20x20 Blur |
+| :---: | :---: | :---: | :---: |
+| ![Original Image](https://github.com/IyenshiAUT/Take-Home-Assginment-1-Computer-Vision-and-Image-Processing/blob/main/image/Brave-cartoon-movie-Merida-archer.jpg)|![3x3](https://github.com/IyenshiAUT/Take-Home-Assginment-1-Computer-Vision-and-Image-Processing/blob/main/2%20Spatial%20Averaging/output/spatial_average_3x3.png) |![10x10](https://github.com/IyenshiAUT/Take-Home-Assginment-1-Computer-Vision-and-Image-Processing/blob/main/2%20Spatial%20Averaging/output/spatial_average_10x10.png)  |![20x20](https://github.com/IyenshiAUT/Take-Home-Assginment-1-Computer-Vision-and-Image-Processing/blob/main/2%20Spatial%20Averaging/output/spatial_average_20x20.png)|
 
 
 ### 3. Image Rotation (Color)
 Rotates the image with reflective padding to avoid black corners.
 
-| 45-Degree Rotation | 90-Degree Rotation |
-| :---: | :---: |
-|  |  |
+| Original Color | 45-Degree Rotation | 90-Degree Rotation |
+| :---: | :---: | :---: |
+|  ![Original Image](https://github.com/IyenshiAUT/Take-Home-Assginment-1-Computer-Vision-and-Image-Processing/blob/main/image/Brave-cartoon-movie-Merida-archer.jpg) | ![45](https://github.com/IyenshiAUT/Take-Home-Assginment-1-Computer-Vision-and-Image-Processing/blob/main/3%20Image%20Rotation/output/3_rotation_by_45.png) | ![90](https://github.com/IyenshiAUT/Take-Home-Assginment-1-Computer-Vision-and-Image-Processing/blob/main/3%20Image%20Rotation/output/3_rotation_by_90.png) |
 
 
 ### 4. Spatial Resolution Reduction (Color)
 Creates a "pixelated" effect by averaging blocks of pixels.
 
-| Original Color | 5x5 Blocks | 7x7 Blocks |
-| :---: | :---: | :---: |
-|  |  |  |
+| Original Color | 3x3 Blocks | 5x5 Blocks | 7x7 Blocks |
+| :---: | :---: | :---: | :---: |
+| ![Original Image](https://github.com/IyenshiAUT/Take-Home-Assginment-1-Computer-Vision-and-Image-Processing/blob/main/image/Brave-cartoon-movie-Merida-archer.jpg) |![3x3](https://github.com/IyenshiAUT/Take-Home-Assginment-1-Computer-Vision-and-Image-Processing/blob/main/4%20Spatial%20Resolution%20Reduction/output/resolution_reduced_3x3.png) |![5x5](https://github.com/IyenshiAUT/Take-Home-Assginment-1-Computer-Vision-and-Image-Processing/blob/main/4%20Spatial%20Resolution%20Reduction/output/resolution_reduced_5x5.png)  |![7x7](https://github.com/IyenshiAUT/Take-Home-Assginment-1-Computer-Vision-and-Image-Processing/blob/main/4%20Spatial%20Resolution%20Reduction/output/resolution_reduced_7x7.png)  |
 
 ---
 
